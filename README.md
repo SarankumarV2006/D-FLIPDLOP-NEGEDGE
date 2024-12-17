@@ -31,6 +31,19 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 **Procedure**
 
 
+1. The Flip-Flop operates with only positive clock transitions.
+2. The output of the D Flip-Flop is insensitive to the changes in the input D.
+3. The operation of the Flip-Flop is shown in the figure, where the input D and the clock signal (clk) are shown.
+4. This circuit has a single input D and two outputs Q and Q'.
+5. The outputs Q and Q' only change when a positive transition of the clock signal is applied.
+
+The procedure to understand this logic diagram would be:
+
+1. Understand the basic operation of a Flip-Flop, where the output state changes based on the input and clock signal.
+2. Analyze the specific operation of this D Flip-Flop, where the output is insensitive to the changes in the input D, and only the positive clock transitions cause the output to change state.
+3. Trace the input D and clock signal (clk) to understand how they affect the output Q and Q'.
+
+
 
 **PROGRAM**
 
@@ -53,8 +66,9 @@ endmodule
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![Screenshot 2024-12-16 224419](https://github.com/user-attachments/assets/bb95811e-1fd2-4628-92f2-8b558ef64216)
 
 
 **RESULTS**
+Thus the truth table of d flip flop in quartus\\ using verilog programming are studied and verified and executed successfully.
